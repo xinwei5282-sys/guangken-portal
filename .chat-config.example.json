@@ -1,0 +1,5 @@
+{
+  "key": "YOUR_APP_KEY",
+  "secret": "YOUR_APP_SECRET",
+  "url": "https://dhb-openapi-prod.xiaoice.com/api/v1/openapi/organizations/YOUR_ORGANIZATION/bots/YOUR_BOT/sessions/<session_id>/streamChat"
+}
