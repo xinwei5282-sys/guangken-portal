@@ -21,3 +21,5 @@
 2026-11-03当前状态：页头/页脚使用客户提供的金色广垦沉香Logo；删除右上、右下问答按钮；保留首屏问答入口，右侧聊天已真实接入。资讯动态显示4篇小程序现有文章；页脚仅保留Logo，删除预览说明与导航。
 
 首次运行：将 `.chat-config.example.json` 复制为 `.chat-config.json`，填入应用配置（仅本机保存，不提交），执行 `node server.mjs`。默认仅监听127.0.0.1:5199。当前本地预览不等同生产部署。
+
+GitHub Pages：公开仓库xinwei5282-sys/guangken-portal，main推送触发.github/workflows/pages.yml；scripts/build-pages.mjs仅打包静态文件至dist，排除所有配置与服务端。Pages版聊天明确显示暂未开放，本地node server.mjs仍可真实对话。
